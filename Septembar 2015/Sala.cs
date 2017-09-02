@@ -46,8 +46,27 @@ namespace Septembar_2015
 
         {
 
+            
+
+            Console.WriteLine("Unesi broj sale  ");
+            int brSale = Convert.ToInt32( Console.ReadLine());
+
+            Console.WriteLine("Kapacitet");
+            int kapacitet = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Ime");
+            string imeOL = Console.ReadLine();
+            //osoba
+            Console.WriteLine("Datum rodjenja ");
+            DateTime d = Convert.ToDateTime(Console.ReadLine());
+
+            Osoba o = new Osoba(imeOL, d);
+
+            //lokacija
+             Sala s = new Sala( brSale, kapacitet, l, o);
 
 
+            return s;
 
         }
 
