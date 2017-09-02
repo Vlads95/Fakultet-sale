@@ -12,7 +12,7 @@ namespace Septembar_2015
         int kapacitet;
         Lokacija lokacija;
         Osoba osoba;
-        List<Kandidat> spisakKandidata;
+        public List<Kandidat> spisakKandidata;
 
         public Sala(int broj,
         int kapacitet,
