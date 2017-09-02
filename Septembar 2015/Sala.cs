@@ -43,6 +43,7 @@ namespace Septembar_2015
          * Metoda kao parametre prima prethodno kreiranu lokaciju i spisak neraspoređenih kandidata. */
 
         public Sala UcitajSalu(Lokacija l,  List<Kandidat> spisak  )
+
         {
 
 
